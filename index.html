@@ -39,7 +39,7 @@
     
 
      <section>
-      <div>
+      <div id="video">
        <iframe width="560" height="315" src="https://www.youtube.com/embed/EEu7yU-xPZI"
        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
        allowfullscreen></iframe>
@@ -48,37 +48,37 @@
 
      <section>
         <ul>
-         <form action="http://127.0.0.1:5500/uknow-dim.html">
+         <form class="items" action="http://127.0.0.1:5500/uknow-dim.html">
            <label for="nombre">Nombre de entidad</label>
            <input type="text" id="nombre" name="nombre">
          </form>
-         <form action="http://127.0.0.1:5500/uknow-dim.html">
+         <form class="items" action="http://127.0.0.1:5500/uknow-dim.html">
            <label for="dimension">Nomenclación de la dimension donde habita</label>
            <input type="text" id="dimension" name="dimension">
          </form>
-         <form action="http://127.0.0.1:5500/uknow-dim.html">
+         <form class="items" action="http://127.0.0.1:5500/uknow-dim.html">
            <label for="pronunciacion">Pronunciacion correcta de su nombre</label>
            <input type="password" id="password" name="password">
          </form>
-         <form action="http://127.0.0.1:5500/uknow-dim.html">
+         <form class="items" action="http://127.0.0.1:5500/uknow-dim.html">
            <label for="simbolo">Simbolo Arcano</label>
            <input type="password" id="simbolo" name="simbolo">
          </form>
 
          <div action="http://127.0.0.1:5500/uknow-dim.html">
-           <label for="tipo de poder">Seleccione sus tres tipos de habilidades: </label><br>
-           <input type="checkbox" name="poder-espacio-tiempo" id="poder-espacio-tiempo">Deformacion del espacio-tiempo <br>
-           <input type="checkbox" name="control-mental" id="control-mental">Control mental de seres sintientes <br>
-           <input type="checkbox" name="control-mental-no" id="control-mental-no">Control mental de seres no sintientes <br>
-           <input type="checkbox" name="control-emocional" id="control-emocional">Control emocional de los seres sintientes <br>
-           <input type="checkbox" name="cambiaformas" id="cambiaformas">Cambiaformas <br>
-           <input type="checkbox" name="esfera-vacio" id="esfera-vacio">Esfera del vacio <br>
-           <input type="checkbox" name="saltador" id="saltador">Saltador dimensional <br>
-           <input type="checkbox" name="control-sueños" id="control-sueños">Metacontrol de los sueños de formas sintientes <br>
-           <input type="checkbox" name="control-sueños-no" id="control-sueños-no">Metacontrol de los sueños de formas no sintientes <br>
-           <input type="checkbox" name="vida-muerte" id="vida-muerte">Control thanatos <br>
+           <label class="items" for="tipo de poder">Seleccione sus tres tipos de habilidades: </label><br>
+           <input class="subitems" type="checkbox" name="poder-espacio-tiempo" id="poder-espacio-tiempo">Deformacion del espacio-tiempo <br>
+           <input class="subitems" type="checkbox" name="control-mental" id="control-mental">Control mental de seres sintientes <br>
+           <input class="subitems" type="checkbox" name="control-mental-no" id="control-mental-no">Control mental de seres no sintientes <br>
+           <input class="subitems" type="checkbox" name="control-emocional" id="control-emocional">Control emocional de los seres sintientes <br>
+           <input class="subitems" type="checkbox" name="cambiaformas" id="cambiaformas">Cambiaformas <br>
+           <input class="subitems" type="checkbox" name="esfera-vacio" id="esfera-vacio">Esfera del vacio <br>
+           <input class="subitems" type="checkbox" name="saltador" id="saltador">Saltador dimensional <br>
+           <input class="subitems" type="checkbox" name="control-sueños" id="control-sueños">Metacontrol de los sueños de formas sintientes <br>
+           <input class="subitems" type="checkbox" name="control-sueños-no" id="control-sueños-no">Metacontrol de los sueños de formas no sintientes <br>
+           <input class="subitems" type="checkbox" name="vida-muerte" id="vida-muerte">Control thanatos <br>
          </div> 
-         <form action="http://127.0.0.1:5500/uknow-dim.html">
+         <form class="items" action="http://127.0.0.1:5500/uknow-dim.html">
            <label for="nivel de poder">Nivel de poder en su forma no interrumpida (segun escala ERTD):</label>
            <select name="nivel-poder" id="nivel-poder">
             <option value="alpha">Alpha</option>
@@ -90,19 +90,19 @@
             <option value="desconoce">Desconoce</option>
            </select>
          </form>
-         <form action="http://127.0.0.1:5500/uknow-dim.html">
+         <form class="items" action="http://127.0.0.1:5500/uknow-dim.html">
            <label for="geometria-dimensional">Selecciona la geometria de su dimension de origen:</label>
            <select name="seleccion-dimension" id="seleccion-dimension">
             <option value="Euclidiana">Euclidiana</option>
             <option value="no.euclidiana">No euclidiana</option>
            </select>
           </form>
-          <form  action="http://127.0.0.1:5500/uknow-dim.html">
+          <form class="items" action="http://127.0.0.1:5500/uknow-dim.html">
             <label for="motivo-visita">Motivo de su visita a ésta dimensión:</label>
           </form>
         
           <div>
-          <form action="http://127.0.0.1:5500/uknow-dim.html">
+          <form class="items" id="summit" action="http://127.0.0.1:5500/uknow-dim.html">
             <input  type="submit" value="Enviar">
           </form>
           </div>
