@@ -13,6 +13,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 99;
 }
 
 .subtitulos
@@ -46,3 +48,10 @@
     align-items: center;
 }
 
+#particles-js 
+{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
