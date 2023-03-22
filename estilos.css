@@ -9,7 +9,9 @@
 }
 
 .box
-{
+{ 
+  width: 100%;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,4 +56,27 @@
     width: 100%;
     position: fixed;
     z-index: -1;
+}
+@media screen and (max-width: 800px){
+    .box {
+        width: 100%;
+    }
+    #titulo {
+        width: 100%;
+    }
+    .items {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 400px){
+    .box {
+        width: 100%;
+    }
+    #titulo {
+        width: 100%;
+    }
+    .items {
+        width: 100%
+    }
 }
