@@ -90,3 +90,9 @@
         width: 100%;
     }
 }
+
+canvas {
+    display:block;
+    margin: 50px 400px 200px 400px;
+    
+  }
