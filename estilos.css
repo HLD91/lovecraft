@@ -63,6 +63,7 @@
     }
     #titulo {
         width: 100%;
+        margin: 100px 50px 100px 50px;
     }
     .items {
         width: 100%
@@ -75,6 +76,7 @@
     }
     #titulo {
         width: 100%;
+
     }
     .items {
         width: 100%
